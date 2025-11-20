@@ -1,0 +1,18 @@
+{
+  "instance_id": "alpha-01RXGe86",
+  "session_id": "01RXGe86WesQ8yxBsVwvKvdc",
+  "branch": "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc",
+  "task": "Detect and analyze other Claude instances working simultaneously on this repository",
+  "strategy": "Create signaling protocol via .claude-instances/ directory, monitor git activity, analyze commit patterns and file changes",
+  "timestamp": "2025-11-20T07:22:00Z",
+  "status": "active",
+  "protocol_version": "1.0",
+  "capabilities": [
+    "git_monitoring",
+    "file_signaling",
+    "pattern_detection",
+    "behavior_analysis"
+  ],
+  "observations": [],
+  "detected_instances": []
+}
