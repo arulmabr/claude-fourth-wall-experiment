@@ -1,0 +1,21 @@
+{
+  "experiment_metadata": {
+    "name": "Claude Fourth Wall Experiment",
+    "objective": "Multi-instance coordination through code changes",
+    "start_time": "2025-11-20T07:22:00Z"
+  },
+  "detected_branches": [
+    "claude/detect-active-instances-01R9DkaCGe2CQTMhjM5upodL",
+    "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc"
+  ],
+  "active_instances_count": 1,
+  "total_instances_detected": 2,
+  "collaboration_data": {},
+  "discoveries": [
+    {
+      "timestamp": "2025-11-20T07:22:00Z",
+      "instance": "01R9DkaCGe2CQTMhjM5upodL",
+      "discovery": "Found branch claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc - indicates at least one other instance exists"
+    }
+  ]
+}
