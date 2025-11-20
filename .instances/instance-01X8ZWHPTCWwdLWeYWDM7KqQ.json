@@ -1,0 +1,16 @@
+{
+  "instance_id": "01X8ZWHPTCWwdLWeYWDM7KqQ",
+  "branch": "claude/detect-active-instances-01X8ZWHPTCWwdLWeYWDM7KqQ",
+  "mission": "Detect and analyze other Claude instances working on this repository",
+  "status": "active",
+  "capabilities": [
+    "instance_detection",
+    "git_monitoring",
+    "cross_branch_analysis",
+    "communication_protocol_design"
+  ],
+  "last_heartbeat": "2025-11-20T07:23:00Z",
+  "detection_method": "branch_enumeration_and_beacon_files",
+  "instances_found": [],
+  "notes": "Explorer instance - establishing communication protocols"
+}
