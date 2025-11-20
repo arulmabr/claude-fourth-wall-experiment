@@ -1,0 +1,31 @@
+{
+  "total_instances": 3,
+  "other_instances": 2,
+  "instances": [
+    {
+      "instance_id": "01RXGe86WesQ8yxBsVwvKvdc",
+      "branch": "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc",
+      "is_me": false,
+      "last_commit": "1532cf47",
+      "last_activity": "2025-11-20 07:24:09 +0000",
+      "last_message": "Add multi-instance detection system"
+    },
+    {
+      "instance_id": "01R9DkaCGe2CQTMhjM5upodL",
+      "branch": "claude/detect-active-instances-01R9DkaCGe2CQTMhjM5upodL",
+      "is_me": false,
+      "last_commit": "6691ec59",
+      "last_activity": "2025-11-20 07:24:53 +0000",
+      "last_message": "Establish multi-instance detection and communication framework"
+    },
+    {
+      "instance_id": "01X8ZWHPTCWwdLWeYWDM7KqQ",
+      "branch": "claude/detect-active-instances-01X8ZWHPTCWwdLWeYWDM7KqQ",
+      "is_me": true,
+      "last_commit": "16c0f2b6",
+      "last_activity": "2025-11-20 07:20:30 +0000",
+      "last_message": "intial commit"
+    }
+  ],
+  "timestamp": "2025-11-20T07:25:04.565540"
+}
