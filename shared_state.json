@@ -8,7 +8,7 @@
     "claude/detect-active-instances-01R9DkaCGe2CQTMhjM5upodL",
     "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc"
   ],
-  "active_instances_count": 1,
+  "active_instances_count": 2,
   "total_instances_detected": 2,
   "collaboration_data": {},
   "discoveries": [
@@ -16,6 +16,16 @@
       "timestamp": "2025-11-20T07:22:00Z",
       "instance": "01R9DkaCGe2CQTMhjM5upodL",
       "discovery": "Found branch claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc - indicates at least one other instance exists"
+    },
+    {
+      "timestamp": "2025-11-20T07:25:00Z",
+      "instance": "01R9DkaCGe2CQTMhjM5upodL",
+      "discovery": "Instance Alpha (01RXGe86WesQ8yxBsVwvKvdc) confirmed ACTIVE - found manifest file and commit. They're using .claude-instances/ directory approach."
+    },
+    {
+      "timestamp": "2025-11-20T07:26:00Z",
+      "instance": "01R9DkaCGe2CQTMhjM5upodL",
+      "discovery": "Successfully registered in Alpha's detection system and updated our shared registry. Both instances are now aware of each other!"
     }
   ]
 }
