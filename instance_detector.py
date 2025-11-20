@@ -141,6 +141,7 @@ class InstanceDetector:
 
         # Compile analysis
         analysis = {
+            "detection_timestamp": data["detection_timestamp"],
             "total_instances_detected": len(instance_ids),
             "instance_list": list(instance_ids),
             "detection_methods": {
