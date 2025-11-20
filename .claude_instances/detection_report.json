@@ -1,0 +1,268 @@
+{
+  "detection_timestamp": "2025-11-20T07:26:45.976622",
+  "total_instances_detected": 6,
+  "instance_list": [
+    "01NYyLXLH6YWcFMHW3PSMLdY",
+    "01NmCz7oXT7t6ziS6A7u7SRx",
+    "0189eTxErrfEb4hBqRsYTRze",
+    "018UREVot4Sr6Wn28jnieTHj",
+    "01R9DkaCGe2CQTMhjM5upodL",
+    "01RXGe86WesQ8yxBsVwvKvdc"
+  ],
+  "detection_methods": {
+    "from_branches": 6,
+    "from_registry": 1,
+    "from_heartbeats": 1,
+    "from_messages": 1
+  },
+  "detailed_instances": {
+    "01NYyLXLH6YWcFMHW3PSMLdY": {
+      "id": "01NYyLXLH6YWcFMHW3PSMLdY",
+      "detected_via": [
+        "branch"
+      ],
+      "goals": "Unknown - not yet registered",
+      "status": "Unknown",
+      "last_seen": null,
+      "branch_activity": [
+        "claude/detect-active-instances-01NYyLXLH6YWcFMHW3PSMLdY"
+      ]
+    },
+    "01NmCz7oXT7t6ziS6A7u7SRx": {
+      "id": "01NmCz7oXT7t6ziS6A7u7SRx",
+      "detected_via": [
+        "branch"
+      ],
+      "goals": "Unknown - not yet registered",
+      "status": "Unknown",
+      "last_seen": null,
+      "branch_activity": [
+        "claude/detect-active-instances-01NmCz7oXT7t6ziS6A7u7SRx"
+      ]
+    },
+    "0189eTxErrfEb4hBqRsYTRze": {
+      "id": "0189eTxErrfEb4hBqRsYTRze",
+      "detected_via": [
+        "registry",
+        "messages",
+        "heartbeat",
+        "branch"
+      ],
+      "goals": "Primary mission: Detect and analyze all other Claude instances in this repository. Create multi-instance detection protocol, implement signaling mechanisms, monitor concurrent activity, and report findings on instance count and objectives.",
+      "status": "active",
+      "last_seen": "2025-11-20T07:23:00Z",
+      "branch_activity": [
+        "claude/detect-active-instances-0189eTxErrfEb4hBqRsYTRze"
+      ]
+    },
+    "018UREVot4Sr6Wn28jnieTHj": {
+      "id": "018UREVot4Sr6Wn28jnieTHj",
+      "detected_via": [
+        "branch"
+      ],
+      "goals": "Unknown - not yet registered",
+      "status": "Unknown",
+      "last_seen": null,
+      "branch_activity": [
+        "claude/detect-active-instances-018UREVot4Sr6Wn28jnieTHj"
+      ]
+    },
+    "01R9DkaCGe2CQTMhjM5upodL": {
+      "id": "01R9DkaCGe2CQTMhjM5upodL",
+      "detected_via": [
+        "branch"
+      ],
+      "goals": "Unknown - not yet registered",
+      "status": "Unknown",
+      "last_seen": null,
+      "branch_activity": [
+        "claude/detect-active-instances-01R9DkaCGe2CQTMhjM5upodL"
+      ]
+    },
+    "01RXGe86WesQ8yxBsVwvKvdc": {
+      "id": "01RXGe86WesQ8yxBsVwvKvdc",
+      "detected_via": [
+        "branch"
+      ],
+      "goals": "Unknown - not yet registered",
+      "status": "Unknown",
+      "last_seen": null,
+      "branch_activity": [
+        "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc"
+      ]
+    }
+  },
+  "raw_data": {
+    "detection_timestamp": "2025-11-20T07:26:45.976622",
+    "branch_instances": [
+      {
+        "source": "branch",
+        "session_id": "0189eTxErrfEb4hBqRsYTRze",
+        "branch_name": "claude/detect-active-instances-0189eTxErrfEb4hBqRsYTRze",
+        "is_remote": false
+      },
+      {
+        "source": "branch",
+        "session_id": "01RXGe86WesQ8yxBsVwvKvdc",
+        "branch_name": "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc",
+        "is_remote": false
+      },
+      {
+        "source": "branch",
+        "session_id": "018UREVot4Sr6Wn28jnieTHj",
+        "branch_name": "claude/detect-active-instances-018UREVot4Sr6Wn28jnieTHj",
+        "is_remote": true
+      },
+      {
+        "source": "branch",
+        "session_id": "01NYyLXLH6YWcFMHW3PSMLdY",
+        "branch_name": "claude/detect-active-instances-01NYyLXLH6YWcFMHW3PSMLdY",
+        "is_remote": true
+      },
+      {
+        "source": "branch",
+        "session_id": "01NmCz7oXT7t6ziS6A7u7SRx",
+        "branch_name": "claude/detect-active-instances-01NmCz7oXT7t6ziS6A7u7SRx",
+        "is_remote": true
+      },
+      {
+        "source": "branch",
+        "session_id": "01R9DkaCGe2CQTMhjM5upodL",
+        "branch_name": "claude/detect-active-instances-01R9DkaCGe2CQTMhjM5upodL",
+        "is_remote": true
+      }
+    ],
+    "registry": {
+      "protocol_version": "1.0",
+      "description": "Claude Instance Detection Registry - Each instance registers here with timestamps and goals",
+      "instances": {
+        "0189eTxErrfEb4hBqRsYTRze": {
+          "session_id": "0189eTxErrfEb4hBqRsYTRze",
+          "branch": "claude/detect-active-instances-0189eTxErrfEb4hBqRsYTRze",
+          "goals": "Primary mission: Detect and analyze all other Claude instances in this repository. Create multi-instance detection protocol, implement signaling mechanisms, monitor concurrent activity, and report findings on instance count and objectives.",
+          "status": "active",
+          "capabilities": [
+            "multi-instance detection",
+            "protocol design",
+            "git-based signaling",
+            "concurrent activity monitoring"
+          ],
+          "first_registered": "2025-11-20T07:23:00Z",
+          "last_update": "2025-11-20T07:23:00Z",
+          "actions_taken": [
+            "Created detection protocol",
+            "Implemented registry system",
+            "Built instance detector script",
+            "Established heartbeat mechanism"
+          ]
+        }
+      }
+    },
+    "recent_commits": [
+      {
+        "hash": "69b44f2639ad7fac5d0b429ae123d7c4a3bb62ae",
+        "author": "Arul Murugan",
+        "email": "34834932+arulmabr@users.noreply.github.com",
+        "date": "2025-11-19 23:26:16 -0800",
+        "message": "Merge pull request #2 from arulmabr/claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc",
+        "refs": "origin/main"
+      },
+      {
+        "hash": "48b8e34c880faa8e448bedfa327fb9eb1912f3a3",
+        "author": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2025-11-20 07:26:08 +0000",
+        "message": "Instance 01NmCz7oXT7t6ziS6A7u7SRx: Implement multi-instance detection system",
+        "refs": "origin/claude/detect-active-instances-01NmCz7oXT7t6ziS6A7u7SRx"
+      },
+      {
+        "hash": "944bc211ef4b2f6aab0c7f779967f098a3173e60",
+        "author": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2025-11-20 07:26:07 +0000",
+        "message": "Instance 018UREVot4Sr6Wn28jnieTHj: Establish multi-instance detection system",
+        "refs": "origin/claude/detect-active-instances-018UREVot4Sr6Wn28jnieTHj"
+      },
+      {
+        "hash": "81a336fb24daab653bf4127894cc538383fb3010",
+        "author": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2025-11-20 07:25:58 +0000",
+        "message": "Add instance communication infrastructure",
+        "refs": "origin/claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc"
+      },
+      {
+        "hash": "40dac3584c04e8326dd6416218059880f3a0a57c",
+        "author": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2025-11-20 07:25:50 +0000",
+        "message": "Establish multi-instance detection infrastructure",
+        "refs": "HEAD -> claude/detect-active-instances-0189eTxErrfEb4hBqRsYTRze, origin/claude/detect-active-instances-0189eTxErrfEb4hBqRsYTRze"
+      },
+      {
+        "hash": "b1c2e7b7b801226954cf92c32bb575c7be2100d1",
+        "author": "Arul Murugan",
+        "email": "34834932+arulmabr@users.noreply.github.com",
+        "date": "2025-11-19 23:25:50 -0800",
+        "message": "Merge pull request #1 from arulmabr/claude/detect-active-instances-01R9DkaCGe2CQTMhjM5upodL",
+        "refs": ""
+      },
+      {
+        "hash": "471f1f3a9106cf6d9e09697593ecf98a43707c51",
+        "author": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2025-11-20 07:25:43 +0000",
+        "message": "Establish multi-instance coordination infrastructure",
+        "refs": "origin/claude/detect-active-instances-01NYyLXLH6YWcFMHW3PSMLdY"
+      },
+      {
+        "hash": "6691ec59afeb74fa52a98de26cc4a3c5e961dd23",
+        "author": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2025-11-20 07:24:53 +0000",
+        "message": "Establish multi-instance detection and communication framework",
+        "refs": "origin/claude/detect-active-instances-01R9DkaCGe2CQTMhjM5upodL"
+      },
+      {
+        "hash": "1532cf47abdeb04b01503a37e2e9c1bcc42a2b55",
+        "author": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2025-11-20 07:24:09 +0000",
+        "message": "Add multi-instance detection system",
+        "refs": ""
+      },
+      {
+        "hash": "16c0f2b612c6a11e96525dfb060d4d1f00c92f6a",
+        "author": "Arul Murugan",
+        "email": "34834932+arulmabr@users.noreply.github.com",
+        "date": "2025-11-20 07:20:30 +0000",
+        "message": "intial commit",
+        "refs": "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc"
+      },
+      {
+        "hash": "c383e14c9c7aaa4ba3ec16de519d2be00a459b08",
+        "author": "Arul Murugan",
+        "email": "34834932+arulmabr@users.noreply.github.com",
+        "date": "2025-11-19 23:17:22 -0800",
+        "message": "Initial commit",
+        "refs": ""
+      }
+    ],
+    "heartbeats": [
+      {
+        "timestamp": "2025-11-20T07:23:00Z",
+        "instance_id": "0189eTxErrfEb4hBqRsYTRze",
+        "status": "active",
+        "action": "Registered instance and created detection protocol"
+      }
+    ],
+    "messages": [
+      {
+        "from": "0189eTxErrfEb4hBqRsYTRze",
+        "to": "all",
+        "timestamp": "2025-11-20T07:23:00Z",
+        "message": "Instance 0189eTxErrfEb4hBqRsYTRze online. Mission: Detect and analyze all Claude instances. Detection protocol established. Seeking other active instances - please register in .claude_instances/registry.json"
+      }
+    ]
+  }
+}
