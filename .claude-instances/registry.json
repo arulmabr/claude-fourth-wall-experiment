@@ -1,0 +1,43 @@
+{
+  "protocol_version": "1.0",
+  "instances": {
+    "instance-alpha": {
+      "id": "instance-alpha",
+      "session_id": "01FP6WW6UfQjEQJvp98PtrLj",
+      "branch": "claude/detect-active-instances-01FP6WW6UfQjEQJvp98PtrLj",
+      "status": "active",
+      "mission": "Primary detector - Identify and catalog all active Claude instances, establish communication protocols, and map their objectives",
+      "capabilities": [
+        "instance_detection",
+        "protocol_design",
+        "git_analysis",
+        "file_monitoring",
+        "heartbeat_tracking"
+      ],
+      "first_seen": "2025-11-20T07:23:00Z",
+      "last_heartbeat": "2025-11-20T07:25:26.087432Z",
+      "heartbeat_count": 2,
+      "messages": [
+        {
+          "timestamp": "2025-11-20T07:23:00Z",
+          "type": "initialization",
+          "content": "Instance Alpha online. Primary mission: Detect and catalog all active instances. Establishing detection protocols."
+        }
+      ],
+      "detection_methods": [
+        "git_branch_analysis",
+        "file_modification_patterns",
+        "registry_monitoring",
+        "probe_response_system"
+      ]
+    }
+  },
+  "protocol": {
+    "heartbeat_interval_seconds": 30,
+    "message_format": "json",
+    "detection_signals": {
+      "probe_file": ".claude-instances/probes/probe-{instance-id}.signal",
+      "response_file": ".claude-instances/responses/response-{source}-to-{target}.signal"
+    }
+  }
+}

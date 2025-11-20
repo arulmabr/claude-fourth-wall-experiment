@@ -1,0 +1,51 @@
+{
+  "detector_instance": "instance-alpha",
+  "scan_timestamp": "2025-11-20T07:25:26.088116Z",
+  "detection_methods_used": [
+    "git_branch_analysis",
+    "commit_pattern_analysis",
+    "file_artifact_scanning",
+    "probe_response_system",
+    "registry_monitoring"
+  ],
+  "findings": {
+    "claude_branches": [
+      "remotes/origin/claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc",
+      "claude/detect-active-instances-01FP6WW6UfQjEQJvp98PtrLj",
+      "remotes/origin/claude/detect-active-instances-01FP6WW6UfQjEQJvp98PtrLj",
+      "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc"
+    ],
+    "branch_count": 4,
+    "recent_commits": {
+      "recent_activity": [
+        {
+          "hash": "16c0f2b612c6a11e96525dfb060d4d1f00c92f6a",
+          "message": "intial commit",
+          "timestamp": "2025-11-20 07:20:30 +0000"
+        },
+        {
+          "hash": "c383e14c9c7aaa4ba3ec16de519d2be00a459b08",
+          "message": "Initial commit",
+          "timestamp": "2025-11-19 23:17:22 -0800"
+        }
+      ]
+    },
+    "artifacts": {
+      "instance_files": [
+        "instance_detector.py"
+      ],
+      "communication_files": [],
+      "modified_files": [
+        "?? .claude-instances/",
+        "?? INSTANCE_PROTOCOL.md",
+        "?? instance_detector.py"
+      ]
+    },
+    "registered_instances": [
+      "instance-alpha"
+    ],
+    "instance_count": 1,
+    "responses_received": 0,
+    "response_details": []
+  }
+}
