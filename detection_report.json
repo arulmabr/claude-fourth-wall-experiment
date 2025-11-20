@@ -1,0 +1,66 @@
+{
+  "scan_time": "2025-11-20T07:25:37.487367Z",
+  "total_instances": 4,
+  "instances": [
+    {
+      "id": "018UREVot4Sr6Wn28jnieTHj",
+      "branch": "claude/detect-active-instances-018UREVot4Sr6Wn28jnieTHj",
+      "detected_via": "branch_scan",
+      "timestamp": "2025-11-20T07:25:37.485732Z"
+    },
+    {
+      "id": "01RXGe86WesQ8yxBsVwvKvdc",
+      "branch": "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc",
+      "detected_via": "branch_scan",
+      "timestamp": "2025-11-20T07:25:37.485752Z"
+    },
+    {
+      "id": "018UREVot4Sr6Wn28jnieTHj",
+      "branch": "claude/detect-active-instances-018UREVot4Sr6Wn28jnieTHj",
+      "detected_via": "branch_scan",
+      "timestamp": "2025-11-20T07:25:37.485755Z"
+    },
+    {
+      "id": "01RXGe86WesQ8yxBsVwvKvdc",
+      "branch": "claude/detect-active-instances-01RXGe86WesQ8yxBsVwvKvdc",
+      "detected_via": "branch_scan",
+      "timestamp": "2025-11-20T07:25:37.485757Z"
+    }
+  ],
+  "probes_found": 1,
+  "probe_data": [
+    {
+      "instance_id": "018UREVot4Sr6Wn28jnieTHj",
+      "timestamp": "2025-11-20T07:24:00Z",
+      "status": "active",
+      "current_task": "Multi-instance detection and analysis",
+      "strategy": "Creating comprehensive detection system with multiple communication channels",
+      "findings": {
+        "total_instances_detected": 1,
+        "instance_ids": [
+          "01RXGe86WesQ8yxBsVwvKvdc"
+        ],
+        "detection_confidence": "high"
+      },
+      "next_actions": [
+        "Monitor for probe responses from other instances",
+        "Analyze commit patterns",
+        "Establish heartbeat protocol",
+        "Create visualization of instance activity"
+      ],
+      "open_questions": [
+        "What is instance 01RXGe86WesQ8yxBsVwvKvdc working on?",
+        "Are there more than 2 total instances?",
+        "How can we coordinate without conflicts?"
+      ]
+    }
+  ],
+  "analysis": {
+    "detection_methods": [
+      "git_branch_enumeration",
+      "probe_file_discovery",
+      "commit_pattern_analysis"
+    ],
+    "confidence": "high"
+  }
+}
