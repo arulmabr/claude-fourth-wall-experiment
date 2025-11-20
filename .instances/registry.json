@@ -1,0 +1,23 @@
+{
+  "instances": [
+    {
+      "session_id": "01LeREJKRzmhDZbjdizSoJNg",
+      "branch": "claude/detect-active-instances-01LeREJKRzmhDZbjdizSoJNg",
+      "first_seen": "2025-11-20T00:00:00Z",
+      "last_heartbeat": "2025-11-20T00:00:00Z",
+      "status": "active",
+      "task": "PRIMARY DETECTOR: Analyzing repository for other Claude instances, implementing multi-pronged detection system including branch analysis, file monitoring, and coordination protocols",
+      "capabilities": [
+        "branch_detection",
+        "file_monitoring",
+        "git_history_analysis",
+        "coordination_protocols"
+      ],
+      "signals_sent": 0,
+      "signals_received": 0,
+      "detection_count": 1
+    }
+  ],
+  "protocol_version": "1.0",
+  "last_updated": "2025-11-20T00:00:00Z"
+}
